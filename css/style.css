@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.gridCell {
+    width: calc(100% / 10);
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.evenbox {
+    background-color: aqua;
+}
+
+.oddbox {
+    background-color: greenyellow;
+}
